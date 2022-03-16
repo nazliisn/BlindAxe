@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/inventory_linear_layout"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/diamondButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icondiamond"></ImageView>
+
+        <TextView
+            android:id="@+id/textChoose"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1 diamond"
+            android:textColor="#50A522"
+            android:textColorHint="#231414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dimans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right"
+            android:background="@drawable/button"
+            android:onClick="addOneDiamond"
+            android:text="$5"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_margin="10dp"
+        android:background="@drawable/inventory_linear_layout"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/coinImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/iconcoin"></ImageView>
+
+        <TextView
+            android:id="@+id/coinText"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1000 coin"
+            android:textColor="#50A522"
+            android:textColorHint="#231414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/coinButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button"
+            android:onClick="addThCoin"
+            android:text="$5"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="@drawable/inventory_linear_layout"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/lifeImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/iconheart"></ImageView>
+
+        <TextView
+            android:id="@+id/heartText"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1 life"
+            android:textColor="#50A522"
+            android:textColorHint="#231414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/heartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button"
+            android:onClick="addOneLife"
+            android:text="$5"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="@drawable/inventory_linear_layout"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/threediamondButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icondiamond"></ImageView>
+
+        <TextView
+            android:id="@+id/threeDiamondText"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3 diamond"
+            android:textColor="#50A522"
+            android:textColorHint="#231414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/threeDiamondButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button"
+            android:onClick="addThreeDiamond"
+            android:text="$10"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="@drawable/inventory_linear_layout"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/coin2Image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/iconcoin"></ImageView>
+
+        <TextView
+            android:id="@+id/coin2Text"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3000 coin"
+            android:textColor="#50A522"
+            android:textColorHint="#231414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/coin2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button"
+            android:onClick="addThThCoin"
+            android:text="$10"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:background="@drawable/inventory_linear_layout"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/life2Image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/iconheart"></ImageView>
+
+        <TextView
+            android:id="@+id/heart2Text"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3 life"
+            android:textColor="#50A522"
+            android:textColorHint="#231414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/heart2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button"
+            android:onClick="addThreeLife"
+            android:text="$10"
+            android:textColor="@color/orange"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
+

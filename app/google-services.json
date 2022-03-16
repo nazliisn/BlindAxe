@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "219181291258",
+    "project_id": "blindaxe-71f36",
+    "storage_bucket": "blindaxe-71f36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219181291258:android:39318f1180cf98e37ddb43",
+        "android_client_info": {
+          "package_name": "com.example.blindaxe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219181291258-ha1449cjl1uhte9o0vm01l3cg7u25t6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUPliDInSxwyx-Q-J9qqm8sd8qc4GN_nY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219181291258-ha1449cjl1uhte9o0vm01l3cg7u25t6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
